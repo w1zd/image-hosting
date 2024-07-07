@@ -2,7 +2,7 @@ name: Generate thumbnails
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'gallery/*' # Only run on this path changes
 jobs:
