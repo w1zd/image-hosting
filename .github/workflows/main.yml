@@ -16,6 +16,8 @@ jobs:
       - name: Process Images
         id: images
         uses: subic/ghaction-thumbnails@v1 # Tag number optional, breaking changes not expected.
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
         with: # Arguments:
           source: 'gallery' # REQUIRED
           output: 'thumbnails' # REQUIRED
