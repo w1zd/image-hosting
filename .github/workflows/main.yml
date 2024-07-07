@@ -17,7 +17,7 @@ jobs:
         id: images
         uses: subic/ghaction-thumbnails@v1 # Tag number optional, breaking changes not expected.
         with: # Arguments:
-          source: 'images' # REQUIRED
+          source: 'gallery' # REQUIRED
           output: 'thumbnails' # REQUIRED
           sizes: 480*296 # REQUIRED
           extensions: 'jpg, jpeg, png, webp, gif, tiff'
