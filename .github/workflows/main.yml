@@ -28,7 +28,7 @@ jobs:
           fit: 'cover'
           position: 'centre'
           enlarge: 'true'
-          overwrite: 'true'
+          overwrite: 'false'
       - uses: EndBug/add-and-commit@v9
         with:
           message: Show GitHub logo
