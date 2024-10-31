@@ -31,5 +31,7 @@ jobs:
           overwrite: 'true'
       - uses: EndBug/add-and-commit@v9
         with:
-          message: Show GitHub logo
+          fetch: true
+          author_name: github action
+          message: Upload the thumbnails.
           default_author: github_actions
